@@ -75,7 +75,7 @@ const Footer = () => {
                         ]}
                     />
                 </div>
-                <div className="text-babyGray2 dark:text-gray flex flex-col justify-center items-center gap-5 text-[1rem] mt-10" data-aos="fade-up"  data-aos-duration="1000">     
+                <div className="text-babyGray2 dark:text-gray flex flex-col justify-center items-center gap-5 text-[1rem] mt-10 text-center" data-aos="fade-up"  data-aos-duration="1000">     
                     <p>&copy; {date} All Rights Reserved By Free Html Templates</p>
                     <p>&copy; Distributed By ThemeWagon</p>              
                 </div>

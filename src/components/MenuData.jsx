@@ -2,7 +2,7 @@ import ButtonRound from "../components/ButtonRound"
 
 const MenuData = ({img,title,p,price}) => {
   return (
-    <div className="flex flex-col bg-gray dark:bg-white2  rounded-xl overflow-hidden min-h-100" data-aos="zoom-in-left" data-aos-duration="500">
+    <div className="flex flex-col bg-gray dark:bg-white2  rounded-xl overflow-hidden min-h-100" data-aos="fade-up" data-aos-duration="500">
       <div className="h-72 bg-white3 dark:bg-yellow flex justify-center items-center  
         [clip-path:inset(-10px_-10px_20%_-10px_round_0_0_0_70px)]">
         <div className="w-full h-full flex items-center justify-center " >

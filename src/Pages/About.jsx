@@ -8,7 +8,7 @@ const About = () => {
       <div className="center-container">
         <div className="grid grid-cols-1 min-[920px]:md:grid-cols-2 gap-8">
           
-          <div className="order-2 min-[920px]:md:order-1" data-aos="fade-right">
+          <div className="order-2 min-[920px]:md:order-1" data-aos="fade-up">
             <img 
               src={aboutImg} 
               alt="aboutImg"   
@@ -17,7 +17,7 @@ const About = () => {
             />
           </div>
           
-          <div className="order-1 min-[920px]:md:order-2 flex flex-col justify-center  gap-5" data-aos="fade-left">
+          <div className="order-1 min-[920px]:md:order-2 flex flex-col justify-center  gap-5" data-aos="fade-up">
             <div className="flex justify-center min-[920px]:md:justify-start">
               <Title 
                 title="We Are Feane" 

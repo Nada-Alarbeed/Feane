@@ -20,10 +20,10 @@ const Header = () => {
 
   return (
     <> 
-      <header className="flex justify-between items-center gap-3 py-6"  data-aos="fade-left"
+      <header className="flex justify-between items-center gap-3 py-6" data-aos="fade-up"
      data-aos-anchor="#example-anchor"
      data-aos-offset="500"
-     data-aos-duration="500">
+     data-aos-duration="800">
         <span className="font-dancing text-[2rem] text-white  font-bold cursor-pointer">Feane</span>
         
         <button 

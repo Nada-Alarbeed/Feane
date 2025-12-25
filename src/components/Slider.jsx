@@ -30,7 +30,7 @@ export default function Slider() {
   ];
 
   return (
-    <div className="w-full mt-18 flex flex-col">
+    <div className="w-full mt-18 flex flex-col " data-aos="fade-up" data-aos-duration="800">
     
       <Swiper
         modules={[Autoplay]}
@@ -65,7 +65,7 @@ export default function Slider() {
         ))}
       </Swiper>
       
-         <div className="flex  lg:mt-35 max-sm:mt-25 max-sm:mb-25" style={{ paddingLeft: '10px' }}>
+         <div className="flex  md:mt-35 mt-25 mb-25" style={{ paddingLeft: '10px' }}>
           {slides.map((_, index) => (
             <button
               key={index}
