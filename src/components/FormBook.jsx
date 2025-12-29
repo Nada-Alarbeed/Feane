@@ -17,9 +17,8 @@ const FormBook = ({ placeholder, type = "text", options = [] }) => {
     return (
       <input 
         type="date" 
-        className={`${baseClasses} pr-10`}
+        className={`${baseClasses} pr-10 dark:scheme-dark`}
         placeholder={placeholder}
-         style={{ colorScheme: "dark" }}
       />
     );
   }
