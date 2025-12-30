@@ -15,36 +15,52 @@ const BookTable = () => {
       <div className="center-container">
       <Title title="Book A Table" align="left" color="dark:text-white"/> 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-5">
-          <div className="flex flex-col gap-3" data-aos="fade-up">
+           <form action="/submit" method="post"  className="flex flex-col gap-3" data-aos="fade-up">
            
-            
             <FormBook 
               placeholder={"Your Name"} 
               type="text"
+               name="name"
+           autoComplete="name" 
+           autoFocus
+           required
+                
             />
             <FormBook 
               placeholder={"Phone Number"} 
               type="tel"
+               name="phone"
+           autoComplete="tel"
+              required
             />
             
             <FormBook 
               placeholder={"Your Email"} 
               type="email"
+              name="email"
+    autoComplete="email"
+              required
             />
             <FormBook 
               placeholder={"How Many Persons?"} 
               type="select"
               options={OPTIONS}
+                name="persons"
+              required
             />
             
             <FormBook 
+             placeholder={"mm/dd/yyyy"}
               type="date"
+               name="date"
+              required
             />
             
             <div className="float-animation ">
-              <Button text="BOOK NOW" />
+              <Button  text="BOOK NOW" />
             </div>
-          </div>
+           </form>
+            
           
           <div className="h-[85%] w-full rounded-3xl overflow-hidden shadow-lg flex flex-col justify-center "  data-aos="fade-up">
             <iframe 
