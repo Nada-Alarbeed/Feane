@@ -21,8 +21,8 @@ const BookTable = () => {
               placeholder={"Your Name"} 
               type="text"
                name="name"
-             autoComplete="name" 
-            required
+           autoComplete="name" 
+           required
                 
             />
             <FormBook 

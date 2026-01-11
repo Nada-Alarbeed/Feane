@@ -19,7 +19,7 @@ offText: 'Off'
 
  const OfferPage = () => {
   return (
-    <section className="py-20">
+    <section className="py-20" >
         <div className="center-container">
     <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-8">
     {OFFER.map((e, i) => <Offer key={i} img={e.img} title={e.title}   price={e.price}
